@@ -1,0 +1,16 @@
+{
+  "name": "@abs-forms/core",
+  "version": "0.1.0",
+  "description": "Core library for AbsForms — schema, field registry, interfaces",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "*.ts"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
