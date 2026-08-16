@@ -16,7 +16,7 @@ export class Form {
     this.data = {};
     this.buttons = schema.buttons ?? [];
 
-    for (const fieldDef: FormFieldSchema of schema.fields) {
+    for (const fieldDef of schema.fields) {
       const field = new Field(fieldDef);
       field.form = this;
       this.fields.set(fieldDef.name, field);
